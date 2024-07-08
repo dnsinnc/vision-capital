@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+   font-family: 'Poppins';
+   font-weight: 500;
+   overflow-x: hidden;
+   position: relative;
+}
+
+
+
+.container {
+   margin: auto;
+   padding: 0 30px;
+   
+   @apply  2xl:max-w-[1920px] 2xl:px-[370px] xl:max-w-[1600px] xl:px-[200px] md:max-w-[580px]
+}
+
+
+.violet-button {
+   border-radius: 8px;
+   padding: 12px 24px;
+   background-color: #8053FF;
+   font-size: 16px;
+   color: white;
+   transition: all .6s;
+}
+
+.violet-button:hover {
+   background-color: #381c83;
+}
+
+.transparent-button {
+   border-radius: 8px;
+   padding: 12px 20px;
+   background-color: #FFFFFF;
+   border: 1px solid #8053FF;
+   font-size: 16px;
+   color: #8053FF;
+   transition: all .6s;
+}
+
+.transparent-button:hover {
+   background-color: #8053FF;
+   color: white;
+}
+
+.title {
+   font-size: clamp(24px, 3vw, 52px);
+   font-weight: 700;
+   line-height: 123%;
+   letter-spacing: 0.02em;
+}
+
+.subtitle {
+   font-size: clamp(6px, 2vw, 16px);
+   font-weight: 400;
+   line-height: 156%;
+   color: #381c83;
+}
+
+.card {
+   gap: 20px;
+   display: flex;
+   max-width: 580px;
+   border-radius: 8px;
+   padding: 24px 200px 24px 24px;
+   font-size: clamp(16px, 2vw, 18px);
+   background-color: #FFFFFF;
+   box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+}
+
+.back {
+   width: 100vw;
+   background-image: url('/images/funding-back.png');
+}
+
+
+.answer-card {
+   background-color: #FFFFFF;
+   box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+   max-width: 580px;
+   padding: 24px 57px 24px 24px;
+
+   border-radius: 8px;
+   gap: 7px;
+
+   @apply sm:flex block
+
+}
+
+.input {
+   border: 2px solid #f4f5f4;
+   border-radius: 8px;
+   padding: 14px 12px;
+   width: 340px;
+   height: 48px;
+   outline: none;
+   border: none;
+}
+
+.input:hover {
+   outline: none;
+   border: none;
+}
+
+
+.adv-img{
+   @apply h-[40px] lg:h-[50px] 2xl:h-auto
+}
+
+
+
+.fundraising-section.element-animation{
+   opacity: 0;
+   transform: translateX(20%);
+}
+
+.fundraising-section.element-animation.element-show {
+   opacity: 1;
+   transition: all 1s;
+   transform: translateX(0%);
+}
+
+.answer-section.element-animation {
+   opacity: 0;
+   transform: translateX(-20%);
+}
+
+.answer-section.element-animation.element-show {
+   opacity: 1;
+   transition: all 1s;
+   transform: translateX(0%);
+}
+
+.text-anim.element-animation{
+      opacity: 0;
+         transform: translateY(-60px);
+}
+
+.text-anim.element-animation.element-show {
+   opacity: 1;
+   transition: all 1.5s;
+   transform: translateY(0%);
+}
