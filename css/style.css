@@ -728,6 +728,20 @@ video {
   animation: bounce 1s infinite;
 }
 
+<<<<<<< HEAD
+=======
+@keyframes ping{
+  75%, 100%{
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+.animate-ping{
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+>>>>>>> 45f7831 (first commit)
 .flex-col{
   flex-direction: column;
 }
@@ -736,6 +750,13 @@ video {
   flex-wrap: wrap;
 }
 
+<<<<<<< HEAD
+=======
+.content-start{
+  align-content: flex-start;
+}
+
+>>>>>>> 45f7831 (first commit)
 .items-center{
   align-items: center;
 }
@@ -792,6 +813,13 @@ video {
   border-top-right-radius: 250px;
 }
 
+<<<<<<< HEAD
+=======
+.bg-\[url\(\/images\/back\.png\)\]{
+  background-image: url(/images/back.png);
+}
+
+>>>>>>> 45f7831 (first commit)
 .bg-\[url\(\/images\/funding-back\.png\)\]{
   background-image: url(/images/funding-back.png);
 }
@@ -800,12 +828,17 @@ video {
   background-image: url(/images/joinus.png);
 }
 
+<<<<<<< HEAD
 .bg-backImg{
   background-image: url('../images/back.png');
 }
 
 .bg-potensial-back{
   background-image: url('../images/potential-back.png');
+=======
+.bg-\[url\(\/images\/potential-back\.png\)\]{
+  background-image: url(/images/potential-back.png);
+>>>>>>> 45f7831 (first commit)
 }
 
 .bg-cover{
@@ -962,6 +995,7 @@ body {
 }
 
 .violet-button {
+<<<<<<< HEAD
   transition: all .6s;
   border-radius: 0.5rem;
   --tw-bg-opacity: 1;
@@ -973,6 +1007,14 @@ body {
   font-size: 16px;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity))
+=======
+  border-radius: 8px;
+  padding: 12px 24px;
+  background-color: #8053FF;
+  font-size: 16px;
+  color: white;
+  transition: all .6s;
+>>>>>>> 45f7831 (first commit)
 }
 
 .violet-button:hover {
@@ -980,6 +1022,7 @@ body {
 }
 
 .transparent-button {
+<<<<<<< HEAD
   transition: all .6s;
   border-radius: 0.5rem;
   border-width: 2px;
@@ -992,6 +1035,15 @@ body {
   font-size: 16px;
   --tw-text-opacity: 1;
   color: rgb(128 83 255 / var(--tw-text-opacity))
+=======
+  border-radius: 8px;
+  padding: 12px 20px;
+  background-color: #FFFFFF;
+  border: 1px solid #8053FF;
+  font-size: 16px;
+  color: #8053FF;
+  transition: all .6s;
+>>>>>>> 45f7831 (first commit)
 }
 
 .transparent-button:hover {
@@ -1014,6 +1066,7 @@ body {
 }
 
 .card {
+<<<<<<< HEAD
   box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
   display: flex;
   max-width: 580px;
@@ -1023,6 +1076,16 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 1.5rem;
   padding-right: 20%
+=======
+  gap: 20px;
+  display: flex;
+  max-width: 580px;
+  border-radius: 8px;
+  padding: 24px 200px 24px 24px;
+  font-size: clamp(16px, 2vw, 18px);
+  background-color: #FFFFFF;
+  box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+>>>>>>> 45f7831 (first commit)
 }
 
 .back {
@@ -1031,6 +1094,7 @@ body {
 }
 
 .answer-card {
+<<<<<<< HEAD
   box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
   display: block;
   max-width: 580px;
@@ -1040,6 +1104,15 @@ body {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding: 1.5rem;
   padding-right: 20%
+=======
+  background-color: #FFFFFF;
+  box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+  max-width: 580px;
+  padding: 24px 57px 24px 24px;
+  border-radius: 8px;
+  gap: 7px;
+  display: block
+>>>>>>> 45f7831 (first commit)
 }
 
 @media (min-width: 640px){
@@ -1049,6 +1122,7 @@ body {
 }
 
 .input {
+<<<<<<< HEAD
   outline: none;
   height: 48px;
   width: 340px;
@@ -1060,6 +1134,19 @@ body {
 }
 
 .input:hover {
+=======
+  border: 2px solid #f4f5f4;
+  border-radius: 8px;
+  padding: 14px 12px;
+  width: 340px;
+  height: 48px;
+  outline: none;
+  border: none;
+}
+
+.input:hover {
+  outline: none;
+>>>>>>> 45f7831 (first commit)
   border: none;
 }
 
