@@ -728,27 +728,12 @@ video {
   animation: bounce 1s infinite;
 }
 
-@keyframes ping{
-  75%, 100%{
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-
-.animate-ping{
-  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-}
-
 .flex-col{
   flex-direction: column;
 }
 
 .flex-wrap{
   flex-wrap: wrap;
-}
-
-.content-start{
-  align-content: flex-start;
 }
 
 .items-center{
@@ -977,12 +962,17 @@ body {
 }
 
 .violet-button {
-  border-radius: 8px;
-  padding: 12px 24px;
-  background-color: #8053FF;
-  font-size: 16px;
-  color: white;
   transition: all .6s;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(128 83 255 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 16px;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity))
 }
 
 .violet-button:hover {
@@ -990,13 +980,18 @@ body {
 }
 
 .transparent-button {
-  border-radius: 8px;
-  padding: 12px 20px;
-  background-color: #FFFFFF;
-  border: 1px solid #8053FF;
-  font-size: 16px;
-  color: #8053FF;
   transition: all .6s;
+  border-radius: 0.5rem;
+  border-width: 2px;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 16px;
+  --tw-text-opacity: 1;
+  color: rgb(128 83 255 / var(--tw-text-opacity))
 }
 
 .transparent-button:hover {
@@ -1019,14 +1014,15 @@ body {
 }
 
 .card {
-  gap: 20px;
+  box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
   display: flex;
   max-width: 580px;
-  border-radius: 8px;
-  padding: 24px 200px 24px 24px;
-  font-size: clamp(16px, 2vw, 18px);
-  background-color: #FFFFFF;
-  box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+  gap: 10px;
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  padding-right: 20%
 }
 
 .back {
@@ -1035,13 +1031,15 @@ body {
 }
 
 .answer-card {
-  background-color: #FFFFFF;
   box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+  display: block;
   max-width: 580px;
-  padding: 24px 57px 24px 24px;
-  border-radius: 8px;
   gap: 7px;
-  display: block
+  border-radius: 0.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  padding: 1.5rem;
+  padding-right: 20%
 }
 
 @media (min-width: 640px){
@@ -1051,17 +1049,17 @@ body {
 }
 
 .input {
-  border: 2px solid #f4f5f4;
-  border-radius: 8px;
-  padding: 14px 12px;
-  width: 340px;
-  height: 48px;
   outline: none;
-  border: none;
+  height: 48px;
+  width: 340px;
+  border-radius: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.875rem;
+  padding-bottom: 0.875rem
 }
 
 .input:hover {
-  outline: none;
   border: none;
 }
 

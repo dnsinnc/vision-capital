@@ -23,12 +23,10 @@ body {
 
 
 .violet-button {
-   border-radius: 8px;
-   padding: 12px 24px;
-   background-color: #8053FF;
-   font-size: 16px;
-   color: white;
+
    transition: all .6s;
+
+   @apply rounded-lg py-3 px-6 bg-[#8053FF] text-[16px] text-[white] 
 }
 
 .violet-button:hover {
@@ -36,13 +34,9 @@ body {
 }
 
 .transparent-button {
-   border-radius: 8px;
-   padding: 12px 20px;
-   background-color: #FFFFFF;
-   border: 1px solid #8053FF;
-   font-size: 16px;
-   color: #8053FF;
    transition: all .6s;
+
+   @apply rounded-lg py-3 px-5 bg-[#FFFFFF] text-[16px] text-[#8053FF] border-2
 }
 
 .transparent-button:hover {
@@ -65,14 +59,9 @@ body {
 }
 
 .card {
-   gap: 20px;
-   display: flex;
-   max-width: 580px;
-   border-radius: 8px;
-   padding: 24px 200px 24px 24px;
-   font-size: clamp(16px, 2vw, 18px);
-   background-color: #FFFFFF;
    box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
+
+   @apply gap-[10px] flex max-w-[580px] rounded-lg p-6 pr-[20%] bg-[#FFFFFF]
 }
 
 .back {
@@ -82,30 +71,19 @@ body {
 
 
 .answer-card {
-   background-color: #FFFFFF;
    box-shadow: 0 14px 64px -4px rgba(35, 21, 91, 0.05), 0 8px 12px -6px rgba(35, 21, 91, 0.05);
-   max-width: 580px;
-   padding: 24px 57px 24px 24px;
 
-   border-radius: 8px;
-   gap: 7px;
-
-   @apply sm:flex block
+   @apply bg-[#FFFFFF] max-w-[580px] gap-[7px] rounded-lg p-6 pr-[20%] sm:flex block
 
 }
 
 .input {
-   border: 2px solid #f4f5f4;
-   border-radius: 8px;
-   padding: 14px 12px;
-   width: 340px;
-   height: 48px;
    outline: none;
-   border: none;
+
+   @apply rounded-lg px-3 py-3.5 w-[340px] h-[48px]
 }
 
 .input:hover {
-   outline: none;
    border: none;
 }
 
