@@ -14,8 +14,8 @@ module.exports = {
             poppins: ['Poppins']
          },
          backgroundImage: {
+            'potensial-back': "url('../images/potential-back.png')",
             'backImg': "url('../images/back.png')",
-            'potensial-back': "url('../images/potential-back.png')"
          }
 
      }
