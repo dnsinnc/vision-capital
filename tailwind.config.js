@@ -15,7 +15,7 @@ module.exports = {
          },
          backgroundImage: {
             'potensial-back': "url('../images/potential-back.png')",
-            'funding-back': "url('../images / funding - back.png')",
+            'funding-back': "url('../images/funding-back.png')",
             'backImg': "url('../images/back.png')",
          }
 
