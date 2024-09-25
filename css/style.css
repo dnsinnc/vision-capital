@@ -792,40 +792,20 @@ video {
   border-top-right-radius: 250px;
 }
 
-.bg-\[url\(\.\/images\/joinus\.png\)\]{
-  background-image: url(./images/joinus.png);
-}
-
 .bg-\[url\(\/images\/funding-back\.png\)\]{
   background-image: url(/images/funding-back.png);
-}
-
-.bg-\[url\(\/images\/potential-back\.png\)\]{
-  background-image: url(/images/potential-back.png);
-}
-
-.bg-backImg{
-  background-image: url('../images/back.png');
-}
-
-.bg-\[url\(\.\.images\/potential-back\.png\)\]{
-  background-image: url(..images/potential-back.png);
-}
-
-.bg-\[url\(\.\.\/images\/potential-back\.png\)\]{
-  background-image: url(../images/potential-back.png);
-}
-
-.bg-\[url\(\.\.\/images\/joinus\.png\)\]{
-  background-image: url(../images/joinus.png);
 }
 
 .bg-\[url\(\/images\/joinus\.png\)\]{
   background-image: url(/images/joinus.png);
 }
 
-.bg-\[url\(\.\/images\/potential-back\.png\)\]{
-  background-image: url(./images/potential-back.png);
+.bg-backImg{
+  background-image: url('../images/back.png');
+}
+
+.bg-potensial-back{
+  background-image: url('../images/potential-back.png');
 }
 
 .bg-cover{
