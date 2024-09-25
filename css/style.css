@@ -792,16 +792,16 @@ video {
   border-top-right-radius: 250px;
 }
 
-.bg-\[url\(\/images\/funding-back\.png\)\]{
-  background-image: url(/images/funding-back.png);
-}
-
 .bg-\[url\(\/images\/joinus\.png\)\]{
   background-image: url(/images/joinus.png);
 }
 
 .bg-backImg{
   background-image: url('../images/back.png');
+}
+
+.bg-fundingBack{
+  background-image: url('../images/fundingBack.png');
 }
 
 .bg-potensial-back{
