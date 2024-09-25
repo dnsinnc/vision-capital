@@ -13,6 +13,10 @@ module.exports = {
          fontFamily: {
             poppins: ['Poppins']
          },
+         backgroundImage: {
+            'backImg': "url(../images/back.png)",
+            'footer-texture': "url('../img/footer-texture.png')",
+         }
 
      }
      
