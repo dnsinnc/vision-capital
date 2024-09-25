@@ -16,6 +16,7 @@ module.exports = {
          backgroundImage: {
             'fundingBack': "url('../images/fundingBack.png')",
             'potensial-back': "url('../images/potential-back.png')",
+            'footer-back': "url('../images/joinus.png')",
             'backImg': "url('../images/back.png')",
          }
 

@@ -792,10 +792,6 @@ video {
   border-top-right-radius: 250px;
 }
 
-.bg-\[url\(\/images\/joinus\.png\)\]{
-  background-image: url(/images/joinus.png);
-}
-
 .bg-backImg{
   background-image: url('../images/back.png');
 }
@@ -806,6 +802,10 @@ video {
 
 .bg-potensial-back{
   background-image: url('../images/potential-back.png');
+}
+
+.bg-footer-back{
+  background-image: url('../images/joinus.png');
 }
 
 .bg-cover{
